@@ -13,7 +13,7 @@ class Strip extends Component {
         var {canvas} = this.state;
         var link = this.downloadLink;
         link.setAttribute('href', canvas.toDataURL());
-        link.setAttribute('download', this.props.title+'-react-komik.png');
+        link.setAttribute('download', this.props.title+'.png');
         link.click();
     }
     onEffect(effect) {
