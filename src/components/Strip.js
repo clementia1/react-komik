@@ -99,7 +99,7 @@ class Strip extends Component {
                     <button onClick={this.onEffect.bind(this, 'invert')}>Invert</button> 
                     <button onClick={this.onDownload.bind(this)}>Download</button>
                     <img ref={(ref) => this.imageBuffer = ref} crossOrigin="anonymous" src=""  style={{display:'none'}} />
-                    <a ref={(ref) => this.downloadLink = ref} style={{display: 'none'}}>Download</a>
+                    <a ref={(ref) => this.downloadLink = ref} style={{display: 'none'}}>Download image</a>
                 </div>
             </div>
         );
